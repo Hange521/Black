@@ -423,12 +423,22 @@
 
 
   @media screen and (max-width:767px){
-    .header-2{
+    .header-2 a{
         display: none;
+        position: relative;
     }
     .back-bottom{
         display: flex;
         position: fixed;
         z-index: 2;
+      }
+
+      .image1{
+        display: none;
+      }
+
+      .about p{
+        margin-bottom: 200px;
+        font-size: 20px;
       }
   }
